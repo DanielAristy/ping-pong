@@ -1,4 +1,19 @@
 /* Identificadores del index.html */
 #canvas {
   border: solid;
+  background-color: chartreuse;
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  display: block;
+  background-color: aqua;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
 }
