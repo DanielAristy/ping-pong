@@ -187,20 +187,20 @@ document.addEventListener("keydown", function(ev){
     //No se baje la pantalla del navegador
     if(ev.keyCode == 38){
         ev.preventDefault();
-        bar.up();
+        bar_2.up();
     }else if (ev.keyCode == 40) {
         ev.preventDefault();
-        bar.down()
+        bar_2.down()
     }
     else if (ev.keyCode == 87) {
         ev.preventDefault();
         //w
-        bar_2.up();
+        bar.up();
     }
     else if (ev.keyCode == 83) {
         ev.preventDefault();
         //s
-        bar_2.down()
+        bar.down()
     }else if(ev.keyCode == 32){
         //Detener o ejecutar juego
         ev.preventDefault();
